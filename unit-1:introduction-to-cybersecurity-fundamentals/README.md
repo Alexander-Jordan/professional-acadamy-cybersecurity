@@ -8,7 +8,7 @@ In this unit we covered:
 - Threat landscape
 - CIA triad
 
-## U1P1 & U1P2
+## U1P1-2
 
 An introduction to Jan Carroll, the course presenter, and what to expect from this 12 unit course.
 
