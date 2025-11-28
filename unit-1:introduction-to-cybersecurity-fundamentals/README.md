@@ -53,7 +53,7 @@ Both are trying to prevent unauthorized access to information and information sy
 
 **Cybersecurity**, a subset of information security, focuses on electronic data, devices and systems, including the information stored.
 
-So the main difference is the scope. Not all data is stored electronically, so information security is concerned about  data protection in all formats.
+So the main difference is the scope. Not all data is stored electronically, so information security is concerned about data protection in all formats.
 
 Shared security practices:
 
@@ -81,7 +81,7 @@ Shared security practices:
 
 > The threat landscape is the entirety of potential and identified cyberthreats affecting a particular sector, group of users, time period, and so forth.
 
-[ENISA](enisa.europa.eu) reports what is the top threats.
+[ENISA](https://enisa.europa.eu) reports what is the top threats.
 
 From 2024:
 

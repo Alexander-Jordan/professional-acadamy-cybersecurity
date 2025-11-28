@@ -158,7 +158,7 @@ fair.
 
 Describes entity's capabilities/roles once identified and authenticated.
 
-What user/system/group access, change, or execute?
+What this user, system, or group can access, change, or execute?
 
 ### Passwords
 
@@ -223,7 +223,7 @@ passwords
 
 This is less of a threat when you apply rate-limits and account lock downs when failing too many times.
 
-### Passwords & hash functions
+### Passwords & hash functions (video)
 
 [Passwords & hash functions (Simply Explained)](https://www.youtube.com/watch?v=cczlpiiu42M)
 

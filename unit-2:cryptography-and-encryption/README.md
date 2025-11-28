@@ -46,7 +46,7 @@ A lot will only be gently introduced, but the main part to learn is:
 ### Goals (PAIN)
 
 - **Privacy:** confidentiality, protect the secrets
-- **Authentication:** roving who sent it
+- **Authentication:** proving who sent it
 - **Integrity:** ensuring integrity via hashing message digests
 - **Non-repudiation:** vial digital signature, digital certs and Public Key Infrastructure (PKI)
 
