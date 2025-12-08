@@ -1,5 +1,18 @@
 # Unit 4: Network Security Basics
 
+## Summary
+
+In this Unit we covered:
+
+- Historical Timeline
+- Technologies, Protocols & Standards
+- Internet, Intranet & Extranet
+- Data Communication Principles
+- Transmission Concepts
+- OSI Reference Model
+- Network Data devices
+- Cloud Computing
+
 ## U4P1-P2: Unit Introduction and Video: A Brief History of the Internet
 
 Learning outcomes:
@@ -376,3 +389,22 @@ Ground wave propagation travels along the Earth's surface and is effective at lo
   - Via mobile device
   - 3G/4G: 100 Mbps
   - 5G: 1 GBps
+
+## U4P20-21: Network Data Devices and Video
+
+- Repeaters: enables signals to travel longer distances over a network by regenerating the signal.
+- Hubs: simple devices that direct data packets to all devices connected to the hub, regardless of whether the data package is destined for the device.
+- Switches: more advanced. Instead of broadcasting the frames everywhere, a switch actually checks for the destination MAC address and forward it to the relevant port to reach that computer only.
+- Routers: a physical or virtual appliance that passes information between two or more packet-switched computer networks - analyzing a given data packet's destination IP address, calculating the best way for it to reach that destination and then forwarding it accordingly.
+
+### Cloud computing (video)
+
+In preparation for unit 6.
+
+In essence, cloud computing is viewed as a utility much like water and electricity.
+Instead of having limited amounts of it (normal users) or lot's of it (big corporations), you can request more or lower the computing power if you need to.
+You pay for what you use.
+
+## U4P22-23: Video "The Future of the Internet"
+
+[Interview with Vint Cerf about the future of the internet](https://www.youtube.com/watch?v=BRakbBZkhyA)
