@@ -17,3 +17,11 @@ Answer theses 4 questions:
 4. How will I implement and expand on this learning in the future?
 
 ## Log
+
+I learned more in detail what cyber threats there are and how to prepare and mitigate them.
+
+I was chocked about the impact a successful attack can have, especially how common and impactful social engineering and ransomware attacks are, and it made me directly think it's super important to be prepared.
+
+Being aware of the risks on the internet and the mentality of planning for **WHEN**, not **IF** is something everyone should adapt.
+
+I will thoroughly go through the systems and routines at my work to make sure we follow vital security defenses, and also apply the learning in my personal life as well.
