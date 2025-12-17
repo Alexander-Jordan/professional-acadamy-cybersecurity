@@ -132,3 +132,174 @@ Examples of physical access controls:
 - Auditing
 - Security protocols
 - Network Security Devices
+
+## U6P5-6: Network Segmentation/NIST CS and Video
+
+### Network Segmentation
+
+A network that could be partly closed off, to not impact other segments in the network in case of an attack.
+It's also for better performance.
+
+Benefits:
+
+- Improved Security
+- Better Access Control
+- Improved Monitoring
+- Improved Performance
+- Better Containment
+
+### What is a Firewall?
+
+[What is a firewall and why do I need one?](https://www.techtarget.com/searchsecurity/definition/firewall)
+
+> A firewall is a network security device that prevents unauthorized access to a network.
+> It inspects incoming and outgoing traffic using a set of security rules to identify and block threats.
+
+### DMZ (Demilitarized Zone)/Perimeter Network Architecture
+
+[Wikipedia: DMZ (computing)](https://en.wikipedia.org/wiki/DMZ_(computing))
+
+> A physical or logical subnetwork that contains and exposes an organization's external-facing services to an untrusted, usually larger, network such as the Internet.
+> An external network node (eg the Internet) can access only what is exposed in the DMZ, while the rest of the organization's network is protected behind a firewall.
+> The DMZ functions as a small, isolated network positioned between the Internet and the private network.
+
+### IDS (Intrusion Detection Systems)
+
+Compared to IPS, IDS doesn't block the attacker, just detecting.
+
+- Hardware/software that passively monitors for potential attacks
+- Technical/Detective control
+- Monitors for:
+  - Known malicious patterns of activity
+  - Detect new activities not previously seen
+- Monitoring based on:
+  - Ports
+  - Protocols
+  - Application payload types
+  - Authentication attempts
+  - File access
+  - Privilege use on single host
+
+### IPS (Intrusion Prevention System)
+
+Compared to IDS, IPS blocks the attacker.
+
+- IDS that proactively responds to potential attacks
+- Technical/Preventive control
+- Inserted inline into traffic stream
+- Any traffic that violates restrictions in signature file/anomaly database is blocked
+- Often integrated into firewalls or unified threat management systems
+
+### IDS/IPS Detection Methods
+
+- Signature-based
+  - Uses predefined set of rules to identify unacceptable traffic
+  - Must periodically update signature file provided by vendor
+- Anomaly-based
+  - Compares activity with a baseline of acceptable patterns
+  - “Learns” what is normal when installed
+  - Dynamic
+  - Administrator can also add acceptable patterns to the database.
+- Many modern systems are hybrid
+
+### SIEM (Security Information and Event Management)
+
+[IBM: What is SIEM?](https://www.ibm.com/think/topics/siem)
+
+Rapidly developed with AI.
+
+- Collection and analysis of security event logs
+  - Servers
+  - Routers
+  - IDS
+  - IPS
+- Correlates events and issues notifications to central console
+- Used for vulnerability management and compliance tool
+- Big Data is becoming a popular replacement for SIEM:
+  - Mining and analysing security events
+  - Spotting trends
+  - Predicting security breaches before they happen
+  - Gleaning hard-to-discover information out of vast stores of security and system log information
+
+### Defense in depth
+
+[Imperva: Defense-in-Depth](https://www.imperva.com/learn/application-security/defense-in-depth/)
+
+> Defense-in-depth is an information assurance strategy that provides multiple, redundant defensive measures in case a security control fails or a vulnerability is exploited.
+
+Illustration: an egg (old security), an onion (todays security).
+Not only one layer of defense.
+
+Layer | Types of protection
+---|---
+Perimeter security | Firewall, IDS/IPS, DMZ, Message security, Honeypot, DLP, DHS einstein
+Network security | Firewall, IDS/IPS, VoIP protection, Inline patching, Web proxy content filtering, NAC, Message security, Wireless security, Remove access, DLP
+Endpoint security | Firewall, IDS/IPS, Content security, Endpoint security enforcement, FDCC compliance, Patch management, DLP
+Application security | Static app testing/code review, Dynamic app testing, WAF, Database monitoring/scanning, Database secure gateway (shield)
+Data security | PKI, Data wiping cleansing, Identity & access management, Enterprise right management, Data classification, Data integrity monitoring, Data/Drive encryption, DLP
+Policy management (prevention) | It security governance, Security policies & compliance, Security architecture & design, Continuos C&A, Cyber threat intelligence, Threat modelling, Risk management, Security awareness training, Penetration testing, Vulnerability assessment
+Operations (monitoring & response) | SIEM, Escalation management, Focused OPS, Digital forensics, Continuos monitoring & assessment, Situational awareness, SOC/NOC monitoring, CIRT, Security dashboard, Security SLA/SLO reporting
+
+Device | Application | Computer | Network |Physical | Policies, procedures & awareness
+
+### Guidelines for Implementing Network Components Security
+
+- Harden routers, switches, firewalls, and other networking components (disable what you're not using)
+- Use VLANs to partition your network and segregate traffic
+- Use physical network partitioning in high-security environments
+- Use firewalls to protect your internal network from the Internet
+- Deploy public-facing servers (web/email/DNS) in a DMZ or perimeter network
+- Lock down remote access server with same care you would give to your firewall
+- Use endpoint security to provide comprehensive protection for (and from) remote users
+- Ensure CDN is protected against:
+  - Malware
+  - Insufficient input validation
+  - Poor session management
+- Educate users to not automatically accept content with self-signed certificates
+- Secure any non-computer physical devices against tampering or accidents
+
+### NIST CSF 2.0
+
+> [!NOTE]  
+> Not the same as NIS
+
+[NIST: The NIST Cybersecurity Framework (CSF) 2.0 is Here!](https://csrc.nist.gov/news/2024/the-nist-csf-20-is-here)
+
+The update version has the `Govern` part added.
+
+You don't have to implement the whole framework, but improve parts you need to.
+
+### CIS (Center of Internet Security) controls (video)
+
+[CIS Critical Security Controls](https://www.cisecurity.org/controls)
+
+> The CIS Critical Security Controls (CIS Controls) are a prescriptive, prioritized, and simplified set of best practices that you can use to strengthen your cybersecurity posture.
+
+[Strengthen Cybersecurity Posture with the CIS Critical Security Controls](https://www.youtube.com/watch?v=6OqnCxdncX4)
+
+### CIS (activity)
+
+Review CIS controls: [CIS Critical Security Controls](https://www.cisecurity.org/controls)
+
+1. Inventory and Control of Enterprise Assets
+2. Inventory and Control of Software Assets
+3. Data Protection
+4. Secure Configuration of Enterprise Assets and Software
+5. Account Management
+6. Access Control Management
+7. Continuous Vulnerability Management
+8. Audit Log Management
+9. Email and Web Browser Protections
+10. Malware Defenses
+11. Data Recovery
+12. Network Infrastructure Management
+13. Network Monitoring and Defense
+14. Security Awareness and Skills Training
+15. Service Provider Management
+16. Application Software Security
+17. Incident Response Management
+18. Penetration Testing
+
+[CIS Control v8.1 PDF](https://learn.cisecurity.org/cis-controls-v8_1_guide_pdf)
+
+> Note that the CIS Controls are licensed under a [Creative Commons Attribution-Non-Commercial-No Derivatives 4.0 International Public License](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode).
