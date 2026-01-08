@@ -17,3 +17,11 @@ Answer theses 4 questions:
 4. How will I implement and expand on this learning in the future?
 
 ## Log
+
+I learned how to properly analyze risk and provide a plan to mitigate or handle incidents.
+
+The scale of possible incidents dawned on me, and made me question if we have a proper plan for all different risks at my work.
+
+It's made clear it's important with critical thinking and planning for incidents and catastrophes, I think all can benefit from having this skill.
+
+I will look at how well we implement this at work, and also start thinking more at risks as inevitable and plan ahead.

@@ -1,5 +1,13 @@
 # Unit 7: Risk Management, BC & DR
 
+## Summary
+
+- Risk Management
+- Types of Risks
+- Risk Management Frameworks
+- Business Continuity & Disaster Recovery Overview
+- BC/DR Plans
+
 ## U7P1: Unit Introduction
 
 Learning outcomes:
@@ -363,3 +371,211 @@ What is Assume Breach Mentality?
 ## U7P7: Game over Zeus (video)
 
 [GameOverZeus - inside the hunt for the world's most powerful cyber-criminals](https://www.youtube.com/watch?v=7i3Iy98EAm8)
+
+## U7P8-9: BC/DR
+
+### What is BC (Business Continuity) & DR (Disaster Recovery)
+
+- **BC** is a comprehensive approach to making sure you can keep making money.
+- **DR** is the process by which you resume business after a disruptive event, (natural or man-made).
+
+Often, the two terms are married under the acronym **BC/DR**. BC/DR determines how a company will keep functioning after a disruptive event until its normal facilities are restored.
+
+### BCP/DRP (P: Plan) – How they differ
+
+#### BCP
+
+- Activities required to ensure the continuation of critical business processes
+in an organization
+- Alternate personnel, equipment, and facilities
+- Often includes non-IT aspects of business
+- Can contain COOP (Continuity of Operations Plan), Crisis Communications Plan, Critical Infrastructure Protection Plan, Cyber Incident Response Plan, DRP (Disaster Recovery Plan), ISCP (Information System Contingency Plan), Occupant Emergency Plan.
+
+#### DRP
+
+- Assessment, salvage, repair, and eventual restoration of damaged facilities and systems
+- Often focuses on IT systems
+
+### Industry Standards for BCP and DRP
+
+- ISO 22301 specifies requirements to plan, establish, implement, operate, monitor, review, maintain and continually improve a documented management system to protect against, reduce the likelihood of occurrence, prepare for, respond to, and recover from disruptive incidents when they arise.
+- ISO 27001 Requirements for Information Security Management Systems. Section 14 addresses business continuity management.
+- ISO 27002 Code of Practice for Business Continuity Management.
+- NIST 800-34
+  - Contingency Planning Guide for Information Technology Systems. Seven step process for BCP and DRP projects
+  - From U.S. National Institute for Standards and Technology
+
+### What is a Business Continuity Plan?
+
+SANS definition 1:
+
+> BC (Business Continuity) refers to the activities required to keep your organization running during a period of displacement or interruption of normal operation.
+
+DR (Disaster Recovery) is the process of rebuilding your operation or infrastructure after the disaster has passed.
+
+### Why we need BCP
+
+**Disaster might occur anytime**, so we must be prepared. Depending on the size and nature of the business, we design a plan to minimize the disruption of disaster and keep our business competitive.
+
+**Business nowadays depends heavily on IT.** With the emergence of e-business, many businesses can't even survive without operating 24 hours per day and 7 days a week. A single downtime might mean disaster to their business.
+
+Therefore, the traditional **DRP**, which focuses on restoring the centralized data centre, **might not be sufficient**. A more comprehensive and rigorous BCP is needed to achieve a state of business continuity where critical systems and networks are continuously available.
+
+### BCP Program Coordinator
+
+- Maintains plan
+- Manages process modifications
+- Has management support
+
+> Normally BC Coordinator will be responsible for maintaining the BCP.
+> However, their job is **not updating** the plan.
+> Their job is to carry out review periodically by distributing relevant parts of the plan to the owner of the documents and ensure the documents are updated.
+
+### BIA (Business Impact Analysis)
+
+A systematic process that determines and evaluates the potential effects of an interruption to critical business operations as a result of a disaster, an accident, or an emergency
+
+Ascertains the recovery time and recovery requirements for various disaster scenarios
+
+The underlying assumption in a BIA is that while each component of an organization depends on the continuous functioning of every other component, some components are more crucial than the others. Hence, these critical components should receive a larger funding and their recovery should be prioritized in the wake of a disaster
+
+### BCP Phases
+
+#### Project Initiation
+
+- Define BC Objective and Scope of coverage.
+- Establish a BR Steering Committee.
+- Draw up BR Policies.
+
+#### Business Analysis (Business Impact Analysis)
+
+- Perform Risk Analysis and BIA (Business Impact Analysis).
+- Consider Alternative BC Strategies.
+- Carry out Cost-Benefit Analysis and select a Strategy.
+- Develop a BC Budget.
+
+#### Design and Development (Designing the Plan)
+
+- Set up a Business Recovery Team and assign responsibility to the members.
+- Identify Plan Structure and major components
+- Develop Backup and Recovery Strategies.
+- Develop Scenario to Execute Plan.
+- Develop Escalation, Notification and Plan Activation Criteria.
+- Develop General Plan Administration Policy.
+
+#### Implementation (Creating the Plan)
+
+- Prepare Emergency Response Procedures.
+- Prepare Command Center Activation Procedures
+- Prepare Detailed Recovery Procedures.
+- Prepare Vendors Contracts and Purchase of Recovery Resources.
+- Ensure everything necessary is in place
+- Ensure Recovery Team members know their Duties and Responsibilities
+
+#### Testing
+
+- Exercise Plan based on selected Scenario.
+- Produce Test Report and Evaluate the Result.
+- Provide Training and Awareness to all Personnel.
+
+#### Maintenance (Updating the Plan)
+
+- Review the Plan periodically.
+- Update the Plan with any Changes or Improvement.
+- Distribute the Plan to Recovery Team members (include a physical copy).
+
+### BCP Benefits
+
+#### Business Survival
+
+- Prepare for the worst. If well practiced, staff and management will be able to respond to an incident appropriately
+- Resources necessary to support the business through an incident will be identified and available
+- Any alternative premises and resources will be ready for use
+
+#### Risk management
+
+- Identify, manage and mitigate as many risks as possible
+- Reduce the risks where necessary
+- Promotes a safer working environment and improves working conditions
+
+#### Responsibility
+
+- A company that takes BCP seriously will be a more attractive proposition for bankers, investors, insurers, customers and employees
+- A business with a BCP will have responsible management
+
+#### Employee satisfaction
+
+- A sound working environment
+- Welfare and safety concerns of the employee addressed
+- A BCP shows your employees that they are important to the survival of the company
+- Training exercises and drills are vital to the successful implementation of a BCP
+
+### Business Continuity Planning and the Role of IT (video)
+
+Prasad Ramakrishnan, CIO of Freshworks, describes how his team was able to take a 2500+ workforce fully remote in a week, in session with the host Alan Berkson.
+
+He provides expert insights into how IT can help adapt and transition your business seamlessly into the new normal, in light of the coronavirus pandemic.
+
+[Business Continuity Planning and the Role of IT [Interview] | Digital workplace best practise](https://www.youtube.com/watch?v=Ke5WmV0pn0c)
+
+## U7P10: RPO (Recovery Point Objective)/RTO (Recovery Time Objective)
+
+**RPO** is essentially how far back your backups should stretch.
+
+**RTO** is the tolerance for down-time after an incident event, before recovering.
+
+**MTD** (Maximum Tolerable Downtime) is the longest acceptable time after an incident event, and any time after that is non-acceptable.
+
+You want the RPO and RTO to be as close to the event as possible.
+
+### Other definitions
+
+- **MTTF**: Mean Time To Failure (time between last failure repaired, to new failure)
+- **MTTD**: Mean Time To Diagnose (time between starting diagnosis of failure, until repairing)
+- **MTTR**: Mean Time To Repair (time between starting repairing of failure, until fixed)
+- **MTBF**: Mean Time Between Failures (time between ending of last failure and start of current failure) = MTTF + MTTD + MTTR
+
+### BCP Goals
+
+- Analyzing the potential risks and losses
+- Enabling the risk management process to lessen the prospect of a complete shutdown in the event of a disruption
+- Prioritizing safety, health, and welfare of the organization and its staff
+- Minimizing infrastructural damage in the event of a disaster
+- Restoring business conditions to the pre-disaster levels
+- Maintaining vital documents and details such as telephone numbers, employee details, vendor details, and client details
+- Providing staff training, building awareness, and promoting disaster preparedness
+
+### DRP Goals
+
+- Reduce the overall organizational risk
+- Alleviate the concerns of the senior management
+- Ensure compliance with regulations
+- Provide a rapid response after a disruption
+
+### Guidelines for DR Implementation
+
+- Ensure that team managing an event can act:
+  - Quickly.
+  - Consistently.
+  - Without interference.
+- Ensure that the team can escalate issues to higher levels of management.
+- Categorize potential events as non-incidents, incidents, or severe incidents.
+- Implement a DRP that can quickly restore critical systems to normal.
+- Choose a short term or long-term approach to your recovery response.
+- Establish a single, clear line of communications with stakeholders.
+- Ensure personnel refer outside parties with questions to communications team (leaving them with no information makes media just publish anything).
+- Use a "call tree" to accurately and efficiently spread information to personnel.
+- Document all communication procedures.
+- Consult legal counsel/insurance agents during restoration process.
+
+## U7P12: Resources
+
+Books:
+
+- Crisis Management, by Regina Phelps
+- The Manager's Guid to Enterprise Security Risk Management: Essentials of Risk-Based Security, by Brian J. Allen
+- Effective Crisis Management, by Sarah Armstrong-Smith
+
+Links:
+
+- [NCSC: Principle D1 Response and recovery planning](https://www.ncsc.gov.uk/collection/cyber-assessment-framework/caf-objective-d/principle-d1-response-and-recovery-planning)
