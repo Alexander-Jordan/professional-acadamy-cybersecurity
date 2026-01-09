@@ -1,5 +1,12 @@
 # Unit 7: Introduction To Ethical Hacking
 
+## Summary
+
+- What is Ethical Hacking & Pen Testing?
+- Steps in Planning a Penetration Testing
+- Stages in Penetration Testing
+- Ethical Hacking Tools & Demo
+
 ## U7P1: Unit Introduction
 
 Learning outcomes:
@@ -209,3 +216,186 @@ Defines seven sections of a penetration test:
 7. Reporting
 
 Take 15 mins to review the Penetration Testing Execution Standard
+
+## U8P4: Phases
+
+- Information gathering
+- Scanning and enumeration
+- Gaining access
+- Maintaining access
+- Clean up
+- Reporting
+
+### Challenges
+
+- [Try Hack Me](https://tryhackme.com/room/pentestingfundamentals)
+- [picoCTF](https://picoctf.org/)
+
+### Activity: Try Hack Me
+
+- Register for a free account with Try Hack Me
+- Follow this link and compete the Pen Testing Fundamentals room
+- [Try Hack Me](https://tryhackme.com/room/pentestingfundamentals)
+- Optional: Choose another room to complete.
+
+## U8P5-6: OSINT
+
+- Gathering publicly available intelligence resources to collect and analyze information about a target
+- Does not require any type of covert methods
+- Most information can be found on the Internet
+- Recon-ng
+- Shodan
+
+## U8P7-8: Lazarus Heist (video)
+
+[How North Korean Hacking Actually Works | The WannaCry Attack](https://www.youtube.com/watch?v=UsoQTKXt_Wk)
+
+## U8P8-9: Frameworks
+
+### Exploitation Frameworks
+
+- Metasploit
+  - auxiliary
+  - encoders
+  - exploits
+  - nops
+  - payloads
+  - post (for post-exploitation)
+- BeEF
+
+### Bash Shell
+
+- Command shell and language interpreter
+- Available for Linux, Mac OS X, and even Windows
+- Being familiar with bash enables you to create scripts, parse data, and automate tasks
+- [Linux Config bash scripting tutorial](https://linuxconfig.org/bash-scripting-tutorial)
+- [DevHints bash shell programming cheat sheet](https://devhints.io/bash)
+
+### Python
+
+- Popular programming language
+- Can be used to automate repetitive tasks and create applications
+- [W3 Schools Python Tutorial](https://www.w3schools.com/python)
+- [Tutorials Point Python Tutorial](https://www.tutorialspoint.com/python/index.htm)
+- [The Python Guru](http://thepythonguru.com)
+- [A comprehensive list of Python resources](https://github.com/vinta/awesome-python)
+
+### Books & Resources
+
+- [Hack the box](https://www.hackthebox.eu/)
+- TCM Academy: Ethical Hacking in 15 Hours - Free
+- [Try hack me](https://tryhackme.com/)
+- Ecollege.ie: CompTIA PenTest+
+- [Scholarship: not free](https://fortifyinstitute.eccouncil.org/)
+
+#### YouTube channels
+
+- [John Hammond](https://www.youtube.com/@_JohnHammond)
+- [Rana Khalil](https://www.youtube.com/@RanaKhalil101)
+- [Chris Greer](https://www.youtube.com/@ChrisGreer)
+- [The Cyber Mentor](https://www.youtube.com/@TCMSecurityAcademy)
+
+### Certifications
+
+- CEH (Certified Ethical Hacker)
+- CCT (Certified Cybersecurity Technician)
+- CompTIA PenTest+
+- PJPT & PNPT
+
+## U8P10-11: Pen Test report
+
+- Report should be detailed and specific
+  - Customers will need to make changes based on the findings
+  - Customer should feel they got value for money
+- Results should be validated
+- Avoid reporting false positives
+  - May cause a loss of customer confidence
+
+### Common Report Elements
+
+- Executive summary
+  - Goals & general findings
+- Methodology
+  - Approach taken
+  - Tools and techniques
+  - Assumptions
+- Findings and remediation
+  - Ranked list
+    - What you found listed by priority
+    - What you recommend the client does provide options as
+- Metrics and measures
+  - Details of findings
+  - Risk Rating
+- Conclusion
+  - Wrap up, summary, CTA (Call To Action)
+
+### Samples & Templates
+
+- [PTES: Reporting](http://www.pentest-standard.org/index.php/Reporting)
+- [GitHub: juliocesarfort/public-pentesting-reports](https://github.com/juliocesarfort/public-pentesting-reports)
+
+### Report Best Practice
+
+- Risk appetite
+  - Amount of risk client is willing to accept
+  - Tone of the entire report is based on the company’s appetite for risk
+  - Risk appetite statement should appear in the report introduction
+- Report storage
+  - Reports should become part of the organization’s document repository
+  - Used as input for future pen tests and other assessments
+  - Security policy should state how long reports are kept
+- Report handling and disposition
+  - Security policy should state how assessment reports are stored
+  - At end of life, how are reports disposed of?
+
+### Post-Engagement Activities
+
+- Remove any malicious scripts
+- Clean any information added to databases
+  - Restoring database to a previous state is best
+- Remove any user accounts created
+- Clean up any files left from successful or unsuccessful exploitation attempts
+- Have the client or system owner validate that the cleanup is sufficient
+- Client acceptance
+  - Formal cessation of project activities and acceptance of deliverable
+  - Client should sign a statement of acceptance
+- Lessons learned
+  - Crucial step in project closure
+- Follow-up actions/retest
+  - Client may need more actions based on findings
+  - Be careful to avoid extending the project scope here without a change process
+- Attestation of findings
+  - Independent review and assurance of findings (i.e. third party)
+
+### Recommended Mitigation Strategies
+
+- Nearly every pen test will discover multiple vulnerabilities
+- A pen test report should contain recommendations to mitigate each vulnerability
+- Solutions vary, depending on the vulnerability
+- **People**–behavior changes
+  - Social engineering
+  - Passwords
+- **Process** how things are done
+  - Backup media handling
+  - ID management
+- **Technology**
+  - Controls based on hardware and/or software
+
+### Common Findings
+
+- Shared local administrator credentials
+  - Randomize credentials/LAPS
+- Weak password complexity
+  - Minimum password requirements/password filters
+- Plain text passwords
+  - Encrypt the passwords
+- No multi-factor authentication
+  - Implement multi-factor authentication
+- SQL injection
+  - Sanitize user input/parameterize queries
+- Unnecessary open services
+  - Disable or remove unneeded services (system hardening)
+
+### Video
+
+[If You Want to Be a Pen Tester, You MUST Watch This!](https://www.youtube.com/watch?v=1MSHX4ynD4U)

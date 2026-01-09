@@ -17,3 +17,11 @@ Answer theses 4 questions:
 4. How will I implement and expand on this learning in the future?
 
 ## Log
+
+I've been interested in ethical hacking for a while, and this unit gave me more insights into the details of a pen tester.
+
+I felt this fire in me that this is what I want to do.
+
+Pen testers not only hack, they report and provide valuable information as well, which is a good skill to have.
+
+I will continue to do more rooms at Try Hack Me, and other similar platforms I've started before, and try to get more roles at my work similar to pen testing.
