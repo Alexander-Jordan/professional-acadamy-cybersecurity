@@ -1,4 +1,4 @@
-# Unit 7: Introduction To Ethical Hacking
+# Unit 8: Introduction To Ethical Hacking
 
 ## Summary
 
@@ -7,7 +7,7 @@
 - Stages in Penetration Testing
 - Ethical Hacking Tools & Demo
 
-## U7P1: Unit Introduction
+## U8P1: Unit Introduction
 
 Learning outcomes:
 
