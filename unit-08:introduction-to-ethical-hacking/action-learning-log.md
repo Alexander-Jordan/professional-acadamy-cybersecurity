@@ -20,8 +20,8 @@ Answer theses 4 questions:
 
 I've been interested in ethical hacking for a while, and this unit gave me more insights into the details of a pen tester.
 
-I felt this fire in me that this is what I want to do.
+I felt a fire of passion in me that this is what I want to do.
 
 Pen testers not only hack, they report and provide valuable information as well, which is a good skill to have.
 
-I will continue to do more rooms at Try Hack Me, and other similar platforms I've started before, and try to get more roles at my work similar to pen testing.
+I will continue to do more rooms at Try Hack Me, and other similar platforms I've started before, and try to get more roles at my work similar to pen testing. I will try and ask my boss if we can conduct more pen testing scenarios, even if they are made from us and not as professional.

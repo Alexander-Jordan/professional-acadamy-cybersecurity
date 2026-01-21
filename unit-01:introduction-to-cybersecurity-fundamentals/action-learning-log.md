@@ -18,10 +18,10 @@ Answer theses 4 questions:
 
 ## Log
 
-I learned how the landscape of cyber security looks like in more detail, for example that ransomware and social engineering are so common and a big threat to anyone. Also about the CIA triad.
+I learned the detailed landscape of cyber security. Also about the CIA triad.
 
-There are more factors than I thought in order to stay protected, but I'm happy to learn that there are methods and standards that can be implemented to plan for and protect myself and businesses.
+There are more factors than I thought in order to stay protected, but standards were great to learn.
 
-At my work I already see so many ways social engineering and ransomware can be a big threat. At a personal level I really want to stay aware of the risks and help friends and family to be more aware too. The value of having data that's confidential, trustworthy, and available has definitively heightened.
+At my work there’s many ways social engineering and ransomware can be a big threat. At a personal level I really want to stay aware of the risks and help friends and family to be more aware too.
 
-I will extend the information to colleagues and teams, friends and family, making sure we're all educated, trained, and ready. I will keep myself up to date with [ENISA](https://enisa.europa.eu) reports, as well as other news media. I will try to actively think how the CIA triad can be used to better protect data at work and in my personal life.
+I will extend the information to colleagues and teams, friends and family, making sure we're all educated, trained, and ready. I will keep myself up to date with [ENISA](https://enisa.europa.eu) reports, and other news media. The CIA triad can be used to better protect data at work and in my personal life.

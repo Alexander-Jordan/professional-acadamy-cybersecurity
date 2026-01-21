@@ -20,8 +20,8 @@ Answer theses 4 questions:
 
 It was made more clear to me that cybersecurity merges with crime and police work.
 
-As a first responder to attacks at my work, I was reminded that I could do better proving an attack through undisputable evidence.
+As a first responder to attacks at my work, I was reminded that I could do better PROVING an attack through indisputable evidence.
 
-In a more general sense, it made me think that I should stop and think before I do stuff, not to tamper anything.
+In a more general sense, it made me think that I should stop and think before I do stuff, not to tamper anything important.
 
-I will try to be more methodical when I do investigations at my work.
+I will try to be more methodical when I do investigations at my work, maybe even practicing thinking like I'm working at a crime scene when I collect evidence and report my findings.

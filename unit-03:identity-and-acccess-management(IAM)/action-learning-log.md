@@ -22,6 +22,6 @@ I learned about the process of identifying and giving access to a user, what met
 
 It confirmed what I already knew about weak passwords, but gave me insights into the importance of policies and guidelines. I enjoyed learning that passwordless (which I try to use as much as possible) was utilizing a key-pair (asymmetric encryption) to authenticate, and how different hashing techniques should be combined to store passwords.
 
-Being able to prove who you are, what you've done, and having access to what is yours is important to all humans. Individuals and our systems should respect and be able to protect that, from individuals and systems that are trying to break it.
+Being able to prove who you are, what you've done, and having access to what is yours is important to everyone.
 
 I will go over the process of identifying, authenticate, and authorize users at my work. I will also review the policies and guidelines, updating them and making sure everyone is educated and informed. I also want to apply what I learned at home, helping my wife set up a password manager.

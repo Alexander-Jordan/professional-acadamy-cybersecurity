@@ -18,10 +18,10 @@ Answer theses 4 questions:
 
 ## Log
 
-I learned a bit about AI, other emerging tech, which blockchain was one thing I read more about.
+I learned a bit about AI and other emerging tech, from which blockchain was one thing I read more about.
 
-It made me aware that we need guidelines for AI at my work.
+It made me aware that guidelines and controls are needed for AI at businesses.
 
-Emerging tech are always coming, so it's good to learn about them.
+Emerging tech are always coming, so it's good to learn about them and what security threats there are.
 
-I will check with my work what controls we have for AI.
+I will check with my work what controls and guidelines we have for AI, and make sure we implement some if we don't.

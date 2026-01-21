@@ -24,4 +24,4 @@ The scale of possible incidents dawned on me, and made me question if we have a 
 
 It's made clear it's important with critical thinking and planning for incidents and catastrophes, I think all can benefit from having this skill.
 
-I will look at how well we implement this at work, and also start thinking more at risks as inevitable and plan ahead.
+We do have a great system in place at my work for monitoring, mitigating, responding, and resolving attack/bugs, but I will look if we can improve anything from what I learned in this unit, and also start thinking more at risks as inevitable and plan ahead.
