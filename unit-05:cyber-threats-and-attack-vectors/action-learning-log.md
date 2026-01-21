@@ -22,6 +22,6 @@ I learned more in detail what cyber threats there are and how to prepare and mit
 
 I was chocked about the impact a successful attack can have, especially how common and impactful social engineering and ransomware attacks are, and it made me directly think it's super important to be prepared.
 
-Being aware of the risks on the internet and the mentality of planning for **WHEN**, not **IF** is something everyone should adapt.
+Being aware of the risks on the internet and the mentality of planning for WHEN, not IF is something everyone should adapt, not only cybersecurity professionals.
 
-I will thoroughly go through the systems and routines at my work to make sure we follow vital security defenses, and also apply the learning in my personal life as well.
+I will thoroughly go through the systems and routines at my work to make sure we follow vital security defenses, maybe even ask my boss if we can implement some type of pen testing. I also want to apply the learning in my personal life, educating my wife and elderly parents.

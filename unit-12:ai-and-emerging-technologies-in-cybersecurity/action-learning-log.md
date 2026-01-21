@@ -20,8 +20,8 @@ Answer theses 4 questions:
 
 I learned a bit about AI and other emerging tech, from which blockchain was one thing I read more about.
 
-It made me aware that guidelines and controls are needed for AI at businesses.
+It made me aware that guidelines and controls are needed for AI at businesses, even more important now when we are using AI more and more at my work.
 
-Emerging tech are always coming, so it's good to learn about them and what security threats there are.
+Emerging tech are always coming, so it's good to learn about them and what security threats there are. It’s fun with opportunities, but we must be aware of the risks as well.
 
-I will check with my work what controls and guidelines we have for AI, and make sure we implement some if we don't.
+I will check with my work what controls and guidelines we have for AI, and make sure we implement some if we don’t. My parents use AI a lot as well, and it would be great to help them stay protected while gaining the benefits of AI.
