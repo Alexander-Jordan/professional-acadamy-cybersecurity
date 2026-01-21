@@ -17,3 +17,11 @@ Answer theses 4 questions:
 4. How will I implement and expand on this learning in the future?
 
 ## Log
+
+I learned a bit about AI, other emerging tech, which blockchain was one thing I read more about.
+
+It made me aware that we need guidelines for AI at my work.
+
+Emerging tech are always coming, so it's good to learn about them.
+
+I will check with my work what controls we have for AI.
